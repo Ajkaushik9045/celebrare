@@ -1,0 +1,47 @@
+name: celebrare
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+  gallery_picker: ^0.5.1
+  device_info_plus: ^9.1.2
+  image_picker: ^1.1.2
+  image_cropper: ^7.1.0
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/celebrareLogo.jpeg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/user_image_frame_1.png
+    - assets/images/user_image_frame_2.png
+    - assets/images/user_image_frame_3.png
+    - assets/images/user_image_frame_4.png
+    - assets/images/celebrareLogo.jpeg
+  # Add fonts section here if needed
+  # fonts:
+  #   - family: YourFontFamily
+  #     fonts:
+  #       - asset: fonts/YourFont-Regular.ttf
+  #       - asset: fonts/YourFont-Bold.ttf
+  #         weight: 700
+
+  # The "flutter_lints" package contains a set of recommended lints
+  
